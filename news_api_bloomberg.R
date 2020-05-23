@@ -12,7 +12,7 @@ df$articles.description
 
 
 #everything from bloomberg
-NEWSAPI_KEY <- "bdfd5239961045b19c59e5d43f6b43df"
+NEWSAPI_KEY <- "****"
 
 Symbols1<-read.csv("nasdaq_tick.csv")
 stock="AHT"
