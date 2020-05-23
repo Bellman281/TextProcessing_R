@@ -13,7 +13,7 @@ df$articles.description
 
 #everything from bloomberg
 NEWSAPI_KEY <- "****"
-
+#companylist csv file is attached
 Symbols1<-read.csv("nasdaq_tick.csv")
 stock="AHT"
 stock.name<-Symbols1[Symbols1$ACT.Symbol ==stock,]$Security.Name
