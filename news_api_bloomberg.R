@@ -1,5 +1,6 @@
 library(jsonlite)
-NEWSAPI_KEY <- "7b5acedb77bd4a41a830929572cb6072"
+#get API key from newsapi.org
+NEWSAPI_KEY <- "*****"
 
 url<-paste0("https://newsapi.org/v2/top-headlines?sources=bloomberg&apiKey=",NEWSAPI_KEY)
 
